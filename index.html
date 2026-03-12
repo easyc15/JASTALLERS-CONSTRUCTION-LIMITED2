@@ -223,6 +223,20 @@ section { padding: 5rem 1.5rem; }
 }
 .service-card p { color: rgba(255,255,255,0.55); font-size: 0.92rem; line-height: 1.6; }
 
+/* STATIONERY */
+.stationery-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;
+}
+.stationery-img { position: relative; }
+.stationery-img img {
+  width: 100%; border-radius: 2px;
+  box-shadow: 16px 16px 0 var(--orange);
+  display: block;
+}
+.stationery-text p {
+  color: var(--gray); line-height: 1.8; font-size: 1rem; margin-bottom: 1.1rem;
+}
+
 /* GALLERY */
 #gallery { background: #f0ede8; }
 .gallery-header { text-align: center; }
@@ -425,6 +439,9 @@ footer a { color: var(--orange); text-decoration: none; }
   .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .about-img img { box-shadow: 10px 10px 0 var(--orange); }
 
+  .stationery-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .stationery-img img { box-shadow: 10px 10px 0 var(--orange); }
+
   .services-grid { grid-template-columns: 1fr; }
 
   .gallery-grid {
@@ -559,6 +576,23 @@ footer a { color: var(--orange); text-decoration: none; }
         <div class="service-icon">🧱</div>
         <h3>Drywall Installation</h3>
         <p>Fast, clean drywall and plasterboard installation for residential and commercial properties.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATIONERY -->
+<section id="stationery">
+  <div class="container">
+    <div class="stationery-grid">
+      <div class="stationery-img">
+        <img src="https://github.com/user-attachments/assets/b1076f1c-fafe-4cac-9b4e-fdfeaf6e6a3d" alt="Stationery Products">
+      </div>
+      <div class="stationery-text">
+        <p class="section-label">What We Supply</p>
+        <h2 class="section-title">Stationery Products</h2>
+        <div class="section-line"></div>
+        <p>We supply a wide range of quality stationery products to keep offices and project sites organized and efficient.</p>
       </div>
     </div>
   </div>
